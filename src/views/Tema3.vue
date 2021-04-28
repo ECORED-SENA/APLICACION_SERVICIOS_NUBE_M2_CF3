@@ -874,7 +874,7 @@
                   td.text-center 34
                   td.text-center Project Manager
     p.mb-5 En esta oportunidad en la figura 28 se muestra en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de  mayor a menor.
-    span.span-amarillo.h4.p-1.mb-5 C. Ordenamiento de registros
+    span.span-amarillo.h4.p-1.mb-5 D. Buscar un elemento
     .row.my-5
         .col-lg-6
           figure
@@ -887,6 +887,19 @@
             b-none devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada 
             b (Array.prototype.find() 
             b-none – JavaScript, MDN, 2021).
+    p.mb-5 Como se puede ver en la figura 29, se usa el identificar elemento para referenciar a la variable que se va a aplicar el criterio que en el ejemplo es encontrar el primer elemento que sea mayor que 10.
+    .row.my-5
+        .col-lg-6
+          figure
+              img(src='@/assets/curso/img45.jpg', alt='Texto que describa la imagen').m-auto
+              figcaption Figura 29 - Buscar un elemento
+
+        .col-lg-6 
+          p Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno, por ejemplo, si en el arreglo de la figura 30, se retornan los valores que son mayores que 10, por lo tanto, debe retornar otro vector con los valores resultados. Para esto existe la función Array.filter(), que crea un nuevo arreglo con los datos que cumplan con la condición. 
+    p Es de interés notar que la consola solo retornó los datos que cumplen la condición que el elemento es mayor que 10. 
+      br
+      br
+      |En la medida que se va avanzando en el conocimiento de la sintaxis del lenguaje, el código fuente se va enriqueciendo de elementos y por tanto de complejidad, esto hace que sea necesario conocer herramientas para la depuración de fallas y corregir los fallos en la redacción del código.
 
 
 
