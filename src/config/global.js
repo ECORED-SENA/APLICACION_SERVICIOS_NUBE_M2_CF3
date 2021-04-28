@@ -221,21 +221,12 @@ export default {
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: [
-          'Lizeth Karina Manchego Suarez',
-          'Luis Gabriel Urueta Alvarez',
-        ],
+        nombre: ['Camilo Andres Bolaño Rey'],
         cargo: 'Desarrollo Front-End',
       },
       {
         centro: 'Centro industrial del diseño y la manufactura',
         regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Jhon Jairo Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
       },
     ],
     gestoresRepositorio: [
@@ -250,124 +241,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video] ',
+      link: 'https://www.youtube.com/watch?v=I388w3wDkjc&t=192s  ',
+    },
+    {
+      referencia:
+        'Choque, R. C. (10 de mayo de 2020). Cómo usar la consola de Google Chrome para JavaScript. [Video] ',
+      link: 'https://www.youtube.com/watch?v=Hf3n-p3VYx4',
+    },
+    {
+      referencia:
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10. [Video].',
+      link: 'https://youtu.be/v0x1Ku5Tgac ',
+    },
+    {
+      referencia:
+        'López, J. (2009). Algoritmos y programación (guía para docentes).',
+      link: 'https://eduteka.icesi.edu.co/',
+    },
+    {
+      referencia: 'MDN. (2021). Array – JavaScript.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array#  ',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+      referencia: 'MDN. (2021a). Expresiones y operadores – JavaScript.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators ',
     },
     {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      referencia: 'MDN. (2021b). Math – JavaScript. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math  ',
     },
     {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      referencia: 'MDN. (2021c). Array.prototype.find() – JavaScript. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find  ',
+    },
+    {
+      referencia: 'MDN. (2021d). Funciones – JavaScript',
+      link:
+        ' https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions',
     },
     {
       referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'MDN. (2021e). Tipos de datos y estructuras en JavaScript – JavaScript. ',
+      link: 'https://developer.mozilla.org/es/docs/Web/ ',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Rojas A., V. y Ñacato C., J. (1980). Técnica de flujogramas I. Editora Andina.',
+    },
+    {
+      referencia: 'Vedia, M. (2018). Cuándo usar Return en JavaScript. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://medium.com/@mvtercero85/cuando-usar-return-en-javascript-7b80e025eb7f ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Código fuente',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'compuesto por la línea de texto de un programa en determinado lenguaje de programación.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Código máquina',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Código de instrucciones que directamente interpreta el circuito microprogramable microprocesador de una computadora.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Compilador',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
-    },
-    {
-      termino: 'Vectores',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
-    },
-    {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Software',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Programa de computador encargado de traducir el código fuente de otro programa escrito en un lenguaje de programación a otro lenguaje de programación.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10. [Video].',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://youtu.be/v0x1Ku5Tgac',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Code Compadre. (30 de junio de 2020). How to Download and Install Visual Studio Code for Windows 10. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/KpzkPlh_HsU',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'VideoMarketingViral. (11 de enero de 2020). Descargar Google Chrome para PC 2021 (WINDOWS 7/8/10). [Video] YouTube. ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://youtu.be/V-M2rMBhgKc',
+    },
+    {
+      texto: 'MDN. (2021). Array – JavaScript. ',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math ',
+    },
+    {
+      texto: 'MDN. (2021). Expresiones y operadores – JavaScript. ',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators ',
+    },
+    {
+      texto: 'MDN. (2021). Funciones – JavaScript. ',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions ',
+    },
+    {
+      texto: 'MDN. (2021). Array.prototype.find() – JavaScript.',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find ',
+    },
+    {
+      texto:
+        'Choque, R. C. (10 de mayo de 2020). Cómo usar la consola de Google Chrome para JavaScript. [Video] YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/Hf3n-p3VYx4 ',
+    },
+    {
+      texto:
+        'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/I388w3wDkjc ',
     },
   ],
 }
