@@ -167,16 +167,14 @@ export default {
       {
         nombre: [
           'Henry Eduardo Bastidas Paruma',
-          'Jonathan Guerrero Astaiza',
           'Peter Emerson Pinchao Solis',
-          'Zulema Yidney León Escobar',
         ],
         cargo: 'Experto temático',
         centro: 'Centro de teleinformática y producción industrial',
         regional: 'Regional Cauca',
       },
       {
-        nombre: ['Alix Cecilia Chinchilla Rueda', 'Oscar Absalón Guevara'],
+        nombre: ['Oscar Absalón Guevara'],
         cargo: 'Diseñador instruccional',
         centro: 'Centro de gestión industrial',
         regional: 'Regional Bogotá',
@@ -194,10 +192,10 @@ export default {
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro industrial del diseño Y la manufactura',
-        regional: 'Regional Santander',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro para la Industria y la Comunicación Gráfica.',
+        regional: 'Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
