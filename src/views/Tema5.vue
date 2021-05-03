@@ -27,15 +27,15 @@
               b-none la consola se utiliza para imprimir registros, muestra errores y advertencias.
             li 
               i.fas.fa-check
-              b Elements:
+              b Elements: 
               b-none se pueden seleccionar los elementos para inspeccionar los elementos HTML y hacer estilos en ellos.
             li 
               i.fas.fa-check
-              b Sources:
+              b Sources: 
               b-none permite navegar los archivos que están presentes en la página cargada y se puede elegir el archivo que se desea consultar.
             li 
               i.fas.fa-check
-              b Network:
+              b Network: 
               b-none  empleado para inspeccionar todas las llamadas de red que realizan los clientes al servidor, como las cabeceras HTTP, el contenido y el tamaño.
     span.span-amarillo.h4.p-1.mb-5 B. Seleccionar fuente (sources)
     .row.my-5

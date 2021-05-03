@@ -18,7 +18,7 @@
           br
           |Dado lo anterior, existen herramientas, manuales o videos que se emplean para el desarrollo de programas en 
           b JavaScript 
-          b-none en y a continuación se comparten recursos de acceso y material audiovisual de apoyo de cada herramienta, tal como se indica en la siguiente tabla.
+          b-none y a continuación se comparten recursos de acceso y material audiovisual de apoyo de cada herramienta, tal como se indica en la siguiente tabla.
       .col-lg-5
         figure
           img(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen')
@@ -34,7 +34,7 @@
           tr
             td.text-center Editor y compilador en línea PlayCode
             td.text-center 
-              a.link(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.link(href="https://playcode.io/" target="_blank")
                 | https://playcode.io/
             td Woodrow, J (2018) How to use playcode.io. 
               a.link(href="https://www.youtube.com/watch?v=9rtsvbc4KZI " target="_blank")

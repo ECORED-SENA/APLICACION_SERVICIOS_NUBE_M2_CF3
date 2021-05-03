@@ -12,10 +12,16 @@
     #t_3_1
     .titulo-segundo
       .h4 3.1 Funciones y operaciones matemáticas
-    p En JavaScript se pueden utilizar muchas funciones matemáticas; por ejemplo, un algoritmo que toma dos números (8 y 6) y le aplica las 4 operaciones básicas y en el editor de código online PlayCode (disponible en https://playcode.io/) se revisan las características de la sintaxis del JavaScript y a la vez se conocen las operaciones matemáticas del lenguaje.
+    p En JavaScript se pueden utilizar muchas funciones matemáticas; por ejemplo, un algoritmo que toma dos números (8 y 6) y le aplica las 4 operaciones básicas y en el editor de código online PlayCode (disponible en 
+      a.link(href="https://playcode.io/" target="_blank")
+                | https://playcode.io/
+      | ) se revisan las características de la sintaxis del JavaScript y a la vez se conocen las operaciones matemáticas del lenguaje.
       br
       br
-      |Ingresar en la ruta del navegador a https://playcode.io/new/, escribir el código de la línea 1 a la 12 en la pestaña script.js como se muestra en la siguiente figura:
+      |Ingresar en la ruta del navegador a 
+      a.link(href="https://playcode.io/new" target="_blank")
+                | https://playcode.io/new
+      |, escribir el código de la línea 1 a la 12 en la pestaña script.js como se muestra en la siguiente figura:
     figure.my-5
       img(src='@/assets/curso/img5.jpg', alt='Texto que describa la imagen' style='width: 427px').m-auto
       figcaption(style='width:427px').m-auto Figura 3 / Operaciones aritméticas con JavaScritpt. 
@@ -48,7 +54,7 @@
           img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 90px').m-auto
         .col-lg-10
           .h4 Validación:
-          p dentro de los paréntesis 
+          p Dentro de los paréntesis 
             span.span-code-1.p-1 "la suma es: " 
             span.span-code-2.p-1 + 
             span.span-code-3.p-1 suma
@@ -90,51 +96,51 @@
     ul.lista-ul--color.ps-2.mb-5
         li 
           i.fas.fa-check
-          b Undefined: 
-          b-none indeterminado o indefinido.
+          b Undefined:  
+          b-none   indeterminado o indefinido.
         li 
           i.fas.fa-check
-          b Boolean:
+          b Boolean: 
           b-none tipo booleano los valores posibles son true o false.
         li 
           i.fas.fa-check
-          b Number:
+          b Number: 
           b-none números enteros, o decimales.
         li 
           i.fas.fa-check
-          b String:
+          b String: 
           b-none cadenas de texto.
         li 
           i.fas.fa-check
-          b BigInt:
+          b BigInt: 
           b-none números enteros grandes.
         li 
           i.fas.fa-check
-          b Symbol:
+          b Symbol: 
           b-none  referencia a otros datos.
     p.mb-5 Otros tipos de datos más complejos o abstractos de datos:
     ul.lista-ul--color.ps-2.mb-5
         li 
           i.fas.fa-check
-          b Null:
+          b Null: 
           b-none tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null.
         li 
           i.fas.fa-check
-          b Object:
+          b Object: 
           b-none tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date y casi todo lo hecho con la palabra clave new).
         li 
           i.fas.fa-check
-          b Function:
+          b Function: 
           b-none una estructura sin datos, aunque también responde al operador t.
     p.mb-5 Cuando se declaran variables se debe considerar los siguientes tipos, ya se han usado dos (2) de ellas:
     ul.lista-ul--color.ps-2.mb-5
         li 
           i.fas.fa-check
-          b var: 
+          b var:  
           b-none declara una variable, opcionalmente la inicia a un valor.
         li 
           i.fas.fa-check
-          b let: 
+          b let:  
           b-none declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor.
         li 
           i.fas.fa-check
@@ -225,7 +231,7 @@
                     |"3" == var1
                     br
                     br
-                    3 == '3'
+                    | 3 == '3'
               tr
                 td No es igual (!=)
                 td.text-center Devuelve true si los operandos no son iguales.
@@ -354,7 +360,7 @@
           .col-lg-6
             figure
             img(src='@/assets/curso/img18.jpg', alt='Texto que describa la imagen')
-            figcaption Tabla 5 / Operadores lógicos.
+            figcaption Figura 5 / Operadores lógicos.
           .col-lg-6
             p Se han presentado los operadores más comunes, aunque existen otros tipos de operadores que tal vez no son los más empleados y una referencia completa la puede obtener desde el recurso web denominado Expresiones y operadores (MDN, 2021a).
     a.anexo.mb-4.mb-lg-5(href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators " target="_blank" style="width:   422px")
@@ -409,7 +415,7 @@
     p JavaScript permite poner comentarios en el código fuente, como la mayoría de los lenguajes de programación y existen dos tipos de comentarios en línea que comienzan con una doble barra: //, y los comentarios multilínea, que comienzan con /* y terminan con */ tal como se observa en la siguiente figura.
     figure.my-5
             img(src='@/assets/curso/img19.jpg', alt='Texto que describa la imagen' style="width:660px").m-auto
-            figcaption(style="width:660px").m-auto Tabla 6 / Tipos de comentarios.
+            figcaption(style="width:660px").m-auto Figura 6 / Tipos de comentarios.
     p.mb-5 Los comentarios son importantes porque le dan mantenibilidad al programa, es decir que otro programador, o el mismo, tiempo después puede revisar el código y apoyarse en los comentarios para saber qué hace el algoritmo y como lo hace.
       br
       br
@@ -419,11 +425,12 @@
       .h4 3.4. Estructuras de selección 
     P.mb-5 La estructura de selección se necesita cuando el código de tu programa ejecuta uno de varios resultados posibles, basado en el valor de una condición.
     .bloque-texto-b.p-4
-        .bloque-texto-b__texto.h2.mb-0 un aprendiz aprueba un examen cuando la calificación de este es mayor o igual a 3. Elaborar un programa  en JavaScript donde que dada una calificación, aplique el criterio de aprobación e imprima “Aprobado” o “Reprobado”, según sea el caso.
+        .bloque-texto-b__texto.h2.mb-0 Ejemplo: un aprendiz aprueba un examen cuando la calificación de este es mayor o igual a 3. Elaborar un programa  en JavaScript donde que dada una calificación, aplique el criterio de aprobación e imprima “Aprobado” o “Reprobado”, según sea el caso.
     p.my-5 Como resultado del análisis a este problema tenemos el diseño del siguiente algoritmo:
-    .tarjeta-azul2.p-5
+    .tarjeta-azul2.p-5.mt-5
       figure.my-5
             img(src='@/assets/curso/img20.svg', alt='Texto que describa la imagen' ).m-auto
+      figcaption  Figura 7 / Seudocódigo calificaciones
     p.my-5 El mismo algoritmo se puede visualizar, pero ya en lenguaje de programación:
     .row.mb-5
       .col-lg-6
@@ -500,13 +507,13 @@
       .col-lg-6
         figure
             img(src='@/assets/curso/img23.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 9 / Imprimir 7 veces un mensaje.
+            figcaption Figura 10 / Imprimir 7 veces un mensaje.
 
       .col-lg-6 
         p Como se puede observar en la línea 
           b 4 
           b-none de la figura 9, se ha usado la palabra reservada 
-          b for
+          b for 
           b-none y dentro del paréntesis aparecen tres (3) instrucciones (separadas por punto y coma).
           br
           br
@@ -549,7 +556,7 @@
       .col-lg-6
         figure
             img(src='@/assets/curso/img24.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 10 / Sumar los números desde 1 hasta un número.
+            figcaption Figura 11 / Sumar los números desde 1 hasta un número.
 
       .col-lg-6 
         p Como se puede ver, se decide una constante con valor 5, y una variable que será para el algoritmo un acumulador donde se almacenarán las sumas. También, note que los valores de i van desde 1 hasta exactamente el valor que tiene la constante (es decir 5).
@@ -558,8 +565,25 @@
     .tarjeta-azul2.p-5.mb-5
       figure
             img(src='@/assets/curso/img25.svg', alt='Texto que describa la imagen' style="width: 360px")
-            figcaption Figura 10 / Seudocódigo algoritmo cálculo de factorial.
+      figcaption.mt-3 Figura 12 / Seudocódigo algoritmo cálculo de factorial.
     p.mb-5 De acuerdo con el anterior algoritmo, el resultante para el cálculo de factorial es: 
+    .row.mb-5
+      .col-lg-7
+        figure.mb-sm-3
+            img(src='@/assets/curso/img55.jpg', alt='Texto que describa la imagen')
+            figcaption Figura 13 / Seudocódigo algoritmo cálculo de factorial.
+      .col-lg-5
+        p Es ideal poder transcribir el código usando 
+          a.link(href="https://playcode.io/" target="_blank")
+                | https://playcode.io/ 
+          |, para lo cual se debe escribir la condición del while, es decir, 
+          b contador <= numero
+          b-none  de último, para que el sistema PlayCode no entre a un ciclo que nunca termina. Una vez funcione correctamente, se propone el código que está entre comentarios (//) para practicar las dos formas de sintaxis.
+          br
+          br
+
+          |Es de recordar que las estructuras de repetición básicas y su sintaxis pueden pasar su aplicación más común para recorrer la estructura de datos.
+      
     #t_3_6
     .titulo-segundo
       .h4 3.6. Estructuras de datos
@@ -568,9 +592,9 @@
     p.mt-3.mb-5 Los vectores se definen en JavaScript como un tipo de dato con métodos, y atributos que lo definen. Es ideal analizar lo siguiente:
     .row.mb-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img26.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 12 / Definición de un vector.
+            figcaption Figura 14 / Definición de un vector.
 
       .col-lg-6 
         p En la línea 1 se ve cómo se define un vector con identificador frutas, de tres (3) elementos, cada uno de ellos es una cadena de texto con una fruta.
@@ -585,17 +609,17 @@
     .h6 Acceder a los elementos de un vector
     .row.mb-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img27.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 13/ Indexar un vector.
+            figcaption Figura 15 / Indexar un vector.
 
       .col-lg-6 
         p Los índices de los vectores se comienzan en cero, en otras palabras, el índice del primer elemento de un vector es 0, y el del último elemento es igual al valor de la propiedad length del array restándole 1. Si se utiliza un número de índice no válido, se obtendrá 
         b undefined.
     p.mb-5 Ahora, se debe crear un programa que guarde los resultados de la tabla de 5 en un vector, con estos resultados recorrer el vector e imprimir la tabla del 5:
     figure.mb-5
-            img(src='@/assets/curso/img27.jpg', alt='Texto que describa la imagen' style="width:367px").m-auto
-            figcaption(style="width:367px").m-auto Figura 15/ Crear la tabla del 5.
+            img(src='@/assets/curso/img28.jpg', alt='Texto que describa la imagen' style="width:367px").m-auto
+            figcaption(style="width:367px").m-auto Figura 16/ Crear la tabla del 5.
     p.mb-5 Es ideal revisar la lista de los métodos más comunes en los arreglos: 
     .tabla-a.my-5 
           table
@@ -631,10 +655,10 @@
             b Enlace web. 
             b-none Tipos de datos y estructuras en JavaScript. (MDN, 2021e).
     span.span-amarillo.h4.p-1.mb-5 B. Matrices
-    p.mt-3.mb-5 Las matrices se pueden ver lógicamente como un vector, y cada uno de sus elementos es otro vector, así la representación de la matriz queda codificada como muestra la figura 16: 
+    p.mt-3.mb-5 Las matrices se pueden ver lógicamente como un vector, y cada uno de sus elementos es otro vector, así la representación de la matriz queda codificada como muestra la figura 17: 
     figure.mb-5
             img(src='@/assets/curso/img29.svg', alt='Texto que describa la imagen' ).m-auto
-            figcaption Figura 16 / Crear la tabla del 5.
+            figcaption Figura 17 / Crear la tabla del 5.
     span.span-amarillo.h4.p-1.mb-5 C. Registros
     p.mt-3.mb-5 Hasta ahora se ha visto cómo un arreglo es la colección de datos del mismo tipo, pero un registro es una colección de datos de diferente tipo que se relacionan entre sí:
     .tabla-a.my-5 
@@ -675,21 +699,21 @@
                 td.text-center 123
     .row.mb-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img30.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 17/ Registros.
-
-      .col-lg-6 
-        p Exceptuando el encabezado de la tabla 7, cada fila representa un registro y cada dato de un registro puede tener un tipo de dato diferente. Si se está interesado en codificar la tabla 7, en una estructura con JavaScript el código sería como se tiene en la figura 17:
-    p.mb-5 Para recorrer todos los registros se precisan dos (2) ciclos for, uno dentro de otro (anidado) como se muestra a continuación:
-    .row.mb-5
-      .col-lg-6
-        figure
-            img(src='@/assets/curso/img31.jpg', alt='Texto que describa la imagen').m-auto
             figcaption Figura 18/ Registros.
 
       .col-lg-6 
-        p Como se puede observar en la figura 18, se requieren dos ciclos for anidados, y cada ciclo tiene una variable de índice de nombre diferente i y j y la manera de indexar la matriz vista anteriormente en el ejemplo de registros [ i ][ j ].
+        p Exceptuando el encabezado de la tabla 7, cada fila representa un registro y cada dato de un registro puede tener un tipo de dato diferente. Si se está interesado en codificar la tabla 7, en una estructura con JavaScript el código sería como se tiene en la figura 18:
+    p.mb-5 Para recorrer todos los registros se precisan dos (2) ciclos for, uno dentro de otro (anidado) como se muestra a continuación:
+    .row.mb-5
+      .col-lg-6
+        figure.mb-sm-3
+            img(src='@/assets/curso/img31.jpg', alt='Texto que describa la imagen').m-auto
+            figcaption Figura 19/ Registros.
+
+      .col-lg-6 
+        p Como se puede observar en la figura 19, se requieren dos ciclos for anidados, y cada ciclo tiene una variable de índice de nombre diferente i y j y la manera de indexar la matriz vista anteriormente en el ejemplo de registros [ i ][ j ].
     #t_3_7
     .titulo-segundo
       .h4 3.7. Estructuras de salto  
@@ -701,13 +725,13 @@
         p.mb-5 La sentencia continue se salta a la siguiente iteración del ciclo for o while como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados.
         figure
           img(src='@/assets/curso/img33.jpg', alt='Texto que describa la imagen')
-          figcaption Figura 19/ Sentencia continue.
+          figcaption Figura 20/ Sentencia continue.
         p Como se observa, cuando la variable i tiene el valor 3, se ejecuta la sentencia continue se salta la sentencia donde debe imprimir el valor de 3, por ese motivo no aparece en la consola.
       div(titulo="Sentencia break").p-5
-        p.mb-5 Por otro lado, la sentencia break, detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo. Mire el siguiente ejemplo en la Figura 20, prestando especial atención en la salida de consola.
+        p.mb-5 Por otro lado, la sentencia break, detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo. Mire el siguiente ejemplo en la Figura 21, prestando especial atención en la salida de consola.
         figure
           img(src='@/assets/curso/img34.jpg', alt='Texto que describa la imagen')
-          figcaption Figura 20/ Sentencia break.
+          figcaption Figura 21/ Sentencia break.
         p En la anterior figura, cuando i tiene el valor de 3 ya no se sigue ejecutando más el ciclo, aunque esté programado para ejecutarse 5 veces, solo ejecuta 3 iteraciones y, ya que en el tercero luego de evaluar la condición i == 3 ejecuta la sentencia break haciendo que termine todo. 
       div(titulo="Sentencia return").p-5
         p.mb-5 Sirve para terminar la ejecución de un bloque de instrucciones, se usa mucho en programación modular cuando se quiere retornar un resultado, se usará más adelante.
@@ -716,13 +740,13 @@
           |Por ejemplo, se tiene una función que divide un número entre 4 y se ha creado para obtener resultados. En el primer caso se le pasa 27 para que lo divida entre 4 pero como no hay return dentro, devuelve “undefined”. No accede al número porque el número solo vive dentro de la función y no hay nada que dé el valor. Si se le agrega return, efectivamente se obtiene el resultado de la división.
         figure
           img(src='@/assets/curso/img35.jpg', alt='Texto que describa la imagen')
-          figcaption Figura 21/ Sentencia return.
+          figcaption Figura 22/ Sentencia return.
     #t_3_8
     .titulo-segundo
       .h4 3.8 Métodos de ordenamiento y búsqueda
     .row.mb-5
       .col-lg-2
-        figure
+        figure.mb-sm-5
           img(src='@/assets/curso/img36.svg', alt='Texto que describa la imagen')
 
       .col-lg-10
@@ -734,9 +758,9 @@
     span.span-amarillo.h4.p-1.mb-5 A. Ordenamiento de cadenas de texto
     .row.my-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img37.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 22/ Ordenamiento de números como cadenas de texto
+            figcaption Figura 23/ Ordenamiento de números como cadenas de texto
 
       .col-lg-6 
         p Se ordenará un vector de mayor a menor valor y de acuerdo con los datos que tiene, se debe tener en cuenta que el arreglo se modifica al ordenarlo, devolviendo la misma matriz ordenada, pero no una nueva. Esto es importante, si se quiere mantener inmutable el vector y obtener otro ordenado, lo que se tendría que hacer es una copia del arreglo antes de ordenarlo.
@@ -747,35 +771,35 @@
           b-none ordena los elementos del array como si fueran cadenas inclusive si los datos son de tipo entero, como en este ejemplo:.
     .row.my-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img38.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 23/ Ordenamiento de cadenas de texto
+            figcaption Figura 24/ Ordenamiento de cadenas de texto
 
       .col-lg-6 
-        p La figura 22 muestra el arreglo a ordenar en la línea 1, en la línea 2, se muestra en consola el vector, se ha usado la función 
+        p La figura 24 muestra el arreglo a ordenar en la línea 1, en la línea 2, se muestra en consola el vector, se ha usado la función 
           b join(‘, ’) 
           b-none que sirve para concatenar los datos del vector o arreglo poniendo entre ellos  una coma (,) y espacio (línea 2). Luego se aplica la función 
           b sort() 
           b-none en la tercera línea de código y, posteriormente, se muestra el vector ya ordenado. Como se observa, el resultado en consola es un ordenamiento como si los elementos fueran cadenas de texto.
     .row.my-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img39.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 24/ Invertir el orden de los elementos
+            figcaption Figura 25/ Invertir el orden de los elementos
 
       .col-lg-6 
         p El ejemplo de la figura anterior muestra un ordenamiento de cadenas de texto. También podemos ordenar el arreglo de forma descendente con el método 
           b Array.reverse() 
-          b-none como se muestra en la figura 24. 
+          b-none como se muestra en la figura 25. 
     p.mb-5 La función 
       b Array.reverse() 
       b-none no ordena los elementos, simplemente toma los elementos y les invierte el orden, es decir, el primero pasa a ser el último, el segundo, el penúltimo y así hasta que el último pasa al primer puesto, es por esto que primero se ordena en orden ascendente y luego se invierte para lograr el orden descendente.
     span.span-amarillo.h4.p-1.mb-5 B. Ordenamiento de datos numéricos
     .row.my-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img40.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 25 - Definición de una función
+            figcaption Figura 26 - Definición de una función
 
       .col-lg-6 
         p Como se ve el ordenamiento con la función 
@@ -794,7 +818,7 @@
         .cajon--azul.p-4.my-5.mb-lg-0
           p 
             b Ejemplo: se quiere construir una función que reciba dos (2) datos numéricos, hay que multiplicar estos dos números, al resultado se le suma el valor de 100 y, por último, retorna la mitad de este resultado. 
-    p.mb-5 Como se puede observar en la línea 1 de la figura 25, se usa la palabra reservada function y luego se escoge identificador para la función que el caso es 
+    p.mb-5 Como se puede observar en la línea 1 de la figura 26, se usa la palabra reservada function y luego se escoge identificador para la función que el caso es 
       b operacion, 
       b-none luego entre paréntesis se seleccionan nombres para las variables de entrada (en el ejemplo 
       b a, y b
@@ -807,9 +831,9 @@
       b-none Y como se observa la función puede invocarse más de una vez (las que se necesiten).
     .row.my-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img41.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 26  - Ordenamiento de números
+            figcaption Figura 27  - Ordenamiento de números
 
       .col-lg-6 
         p Para ordenar un vector con datos numéricos se debe pasar como argumento una función al método 
@@ -829,13 +853,13 @@
         b-none son iguales.
     .row.my-5
       .col-lg-6
-        figure
+        figure.mb-sm-3
             img(src='@/assets/curso/img42.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 27 - Ordenamiento inverso de números
+            figcaption Figura 28 - Ordenamiento inverso de números
 
       .col-lg-6 
-        p Como se puede ver en la figura 26 se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas, también existe otra forma de sintaxis para funciones anónimas, se denomina funciones flecha. Se verá, con la sintaxis de función flecha, cómo ordenar un arreglo número de manera inversa en la figura 27.
-    p.mb-5 La figura 27 muestra cómo no se usa la palabra reservada 
+        p Como se puede ver en la figura 27 se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas, también existe otra forma de sintaxis para funciones anónimas, se denomina funciones flecha. Se verá, con la sintaxis de función flecha, cómo ordenar un arreglo número de manera inversa en la figura 28.
+    p.mb-5 La figura 29 muestra cómo no se usa la palabra reservada 
       b function
       b-none , tampoco se usan la identificación de contexto (corchetes) porque la función tiene una sola línea y se reemplaza por el 
       b operador =>.  
@@ -845,9 +869,9 @@
     span.span-amarillo.h4.p-1.mb-5 C. Ordenamiento de registros
     .row.my-5
         .col-lg-6
-          figure
+          figure.mb-sm-3
               img(src='@/assets/curso/img43.jpg', alt='Texto que describa la imagen').m-auto
-              figcaption Figura 28 - Ordenamiento de registros
+              figcaption Figura 29 - Ordenamiento de registros
 
         .col-lg-6 
           p Suponiendo que se tienen los registros de la tabla, se desea ordenarlos de mayor edad a menor edad.
@@ -873,13 +897,13 @@
                   td.text-center Andrés
                   td.text-center 34
                   td.text-center Project Manager
-    p.mb-5 En esta oportunidad en la figura 28 se muestra en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de  mayor a menor.
+    p.mb-5 En esta oportunidad en la figura 30 se muestra en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de  mayor a menor.
     span.span-amarillo.h4.p-1.mb-5 D. Buscar un elemento
     .row.my-5
         .col-lg-6
-          figure
+          figure.mb-sm-3
               img(src='@/assets/curso/img44.jpg', alt='Texto que describa la imagen').m-auto
-              figcaption Figura 29 - Buscar un elemento
+              figcaption Figura 30 - Buscar un elemento
 
         .col-lg-6 
           p El método 
@@ -887,12 +911,12 @@
             b-none devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada 
             b (Array.prototype.find() 
             b-none – JavaScript, MDN, 2021).
-    p.mb-5 Como se puede ver en la figura 29, se usa el identificar elemento para referenciar a la variable que se va a aplicar el criterio que en el ejemplo es encontrar el primer elemento que sea mayor que 10.
+    p.mb-5 Como se puede ver en la figura 31, se usa el identificar elemento para referenciar a la variable que se va a aplicar el criterio que en el ejemplo es encontrar el primer elemento que sea mayor que 10.
     .row.my-5
         .col-lg-6
-          figure
+          figure.mb-sm-3
               img(src='@/assets/curso/img45.jpg', alt='Texto que describa la imagen').m-auto
-              figcaption Figura 29 - Buscar un elemento
+              figcaption Figura 31 - Buscar varios elementos
 
         .col-lg-6 
           p Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno, por ejemplo, si en el arreglo de la figura 30, se retornan los valores que son mayores que 10, por lo tanto, debe retornar otro vector con los valores resultados. Para esto existe la función Array.filter(), que crea un nuevo arreglo con los datos que cumplan con la condición. 
