@@ -31,7 +31,7 @@
               b console.error() para registrar mensajes de error.
     figure.my-5
       img(src='@/assets/curso/img47.jpg', alt='Texto que describa la imagen' style="width:500px").m-auto
-      figcaption(style="width:500px").m-auto Figura 31 - Mensaje de depuración
+      figcaption(style="width:500px").m-auto Figura 31/ Mensaje de depuración
     a.anexo.mb-4.mb-lg-5.m-auto(href="https://youtu.be/Hf3n-p3VYx4" target="_blank" style="width: 422px")
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")

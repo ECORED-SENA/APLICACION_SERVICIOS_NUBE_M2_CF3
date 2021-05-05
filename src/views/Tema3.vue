@@ -811,7 +811,7 @@
       .col-lg-6
         figure.mb-sm-3
             img(src='@/assets/curso/img40.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 26 - Definición de una función
+            figcaption Figura 26/ Definición de una función
 
       .col-lg-6 
         p Como se ve el ordenamiento con la función 
@@ -845,7 +845,7 @@
       .col-lg-6
         figure.mb-sm-3
             img(src='@/assets/curso/img41.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 27  - Ordenamiento de números
+            figcaption Figura 27/ Ordenamiento de números
 
       .col-lg-6 
         p Para ordenar un vector con datos numéricos se debe pasar como argumento una función al método 
@@ -867,7 +867,7 @@
       .col-lg-6
         figure.mb-sm-3
             img(src='@/assets/curso/img42.jpg', alt='Texto que describa la imagen').m-auto
-            figcaption Figura 28 - Ordenamiento inverso de números
+            figcaption Figura 28/ Ordenamiento inverso de números
 
       .col-lg-6 
         p Como se puede ver en la figura 27 se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas, también existe otra forma de sintaxis para funciones anónimas, se denomina funciones flecha. Se verá, con la sintaxis de función flecha, cómo ordenar un arreglo número de manera inversa en la figura 28.
@@ -883,7 +883,7 @@
         .col-lg-6
           figure.mb-sm-3
               img(src='@/assets/curso/img43.jpg', alt='Texto que describa la imagen').m-auto
-              figcaption Figura 29 - Ordenamiento de registros
+              figcaption Figura 29/ Ordenamiento de registros
 
         .col-lg-6 
           p Suponiendo que se tienen los registros de la tabla, se desea ordenarlos de mayor edad a menor edad.
@@ -915,7 +915,7 @@
         .col-lg-6
           figure.mb-sm-3
               img(src='@/assets/curso/img44.jpg', alt='Texto que describa la imagen').m-auto
-              figcaption Figura 30 - Buscar un elemento
+              figcaption Figura 30/ Buscar un elemento
 
         .col-lg-6 
           p El método 
@@ -928,7 +928,7 @@
         .col-lg-6
           figure.mb-sm-3
               img(src='@/assets/curso/img45.jpg', alt='Texto que describa la imagen').m-auto
-              figcaption Figura 31 - Buscar varios elementos
+              figcaption Figura 31/ Buscar varios elementos
 
         .col-lg-6 
           p Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno, por ejemplo, si en el arreglo de la figura 30, se retornan los valores que son mayores que 10, por lo tanto, debe retornar otro vector con los valores resultados. Para esto existe la función Array.filter(), que crea un nuevo arreglo con los datos que cumplan con la condición. 

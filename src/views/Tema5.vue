@@ -23,20 +23,24 @@
           ul.lista-ul--color.ps-2
             li 
               i.fas.fa-check
-              b Console: 
-              b-none la consola se utiliza para imprimir registros, muestra errores y advertencias.
+              p
+                b Console: 
+                b-none la consola se utiliza para imprimir registros, muestra errores y advertencias.
             li 
               i.fas.fa-check
-              b Elements: 
-              b-none se pueden seleccionar los elementos para inspeccionar los elementos HTML y hacer estilos en ellos.
+              p
+                b Elements: 
+                b-none se pueden seleccionar los elementos para inspeccionar los elementos HTML y hacer estilos en ellos.
             li 
               i.fas.fa-check
-              b Sources: 
-              b-none permite navegar los archivos que están presentes en la página cargada y se puede elegir el archivo que se desea consultar.
+              p
+                b Sources: 
+                b-none permite navegar los archivos que están presentes en la página cargada y se puede elegir el archivo que se desea consultar.
             li 
               i.fas.fa-check
-              b Network: 
-              b-none  empleado para inspeccionar todas las llamadas de red que realizan los clientes al servidor, como las cabeceras HTTP, el contenido y el tamaño.
+              p
+                b Network: 
+                b-none  empleado para inspeccionar todas las llamadas de red que realizan los clientes al servidor, como las cabeceras HTTP, el contenido y el tamaño.
     span.span-amarillo.h4.p-1.mb-5 B. Seleccionar fuente (sources)
     .row.my-5
           .col-lg-6 
@@ -44,7 +48,7 @@
           .col-lg-6
             figure
                 img(src='@/assets/curso/img49.jpg', alt='Texto que describa la imagen').m-auto
-                figcaption Figura 32 - Seleccionar fuente
+                figcaption Figura 32/ Seleccionar fuente
     span.span-amarillo.h4.p-1.mb-5 C. Marcar punto de interrupción
     .row.my-5
           .col-lg-6 
@@ -52,7 +56,7 @@
           .col-lg-6
             figure
                 img(src='@/assets/curso/img50.jpg', alt='Texto que describa la imagen').m-auto
-                figcaption Figura 33  - Marcar un break point
+                figcaption Figura 33/ Marcar un break point
     span.span-amarillo.h4.p-1.mb-5 D. Avanzar línea a línea
     .row.my-5
           .col-lg-6 
@@ -60,7 +64,7 @@
           .col-lg-6
             figure
                 img(src='@/assets/curso/img51.jpg', alt='Texto que describa la imagen').m-auto
-                figcaption Figura 34 - Ejecución línea a línea
+                figcaption Figura 34/ Ejecución línea a línea
     span.span-amarillo.h4.p-1.mb-5 E. Comprobar el estado de las variables
     .row.my-5
           .col-lg-6 
@@ -70,7 +74,7 @@
           .col-lg-6
             figure.mb-5
                 img(src='@/assets/curso/img52.jpg', alt='Texto que describa la imagen').m-auto
-                figcaption Figura 35 -  Valores de las variables
+                figcaption Figura 35/  Valores de las variables
             a.anexo.mb-4.mb-lg-5.m-auto(href="https://youtu.be/I388w3wDkjc" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")

@@ -27,7 +27,7 @@
       b-none como se muestra en la siguiente figura.
     figure.my-5
       img(src='@/assets/curso/img53.svg', alt='Texto que describa la imagen' style="width:500px").m-auto
-      figcaption(style="width:500px").m-auto Figura 36 - Lanzar una excepción
+      figcaption(style="width:500px").m-auto Figura 36/ Lanzar una excepción
     p.mb-5 Existe un tipo de estructura de control en 
       b JavaScript 
       b-none que está pendiente de revisar en el flujo de ejecución de un programa para detectar comportamientos inesperados, la estructura es 
@@ -35,7 +35,7 @@
       b-none que consta de un bloque que intenta la ejecución de una sesión de código (contexto), a la espera de que pueda ocurrir una posible excepción. Finalizado el contexto existe otro denominado catch que tiene un argumento o variable de contexto, donde se captura el elemento disparado.
     figure.my-5
       img(src='@/assets/curso/img54.jpg', alt='Texto que describa la imagen' style="width:500px").m-auto
-      figcaption(style="width:500px").m-auto Figura 37 - Bloque de captura de excepción
+      figcaption(style="width:500px").m-auto Figura 37/ Bloque de captura de excepción
     p En la figura 37 se muestra un algoritmo que divide dos números y, como se sabe, en este proceso se debe validar que no exista una división por 0 al no estar definida aritméticamente.
       br
       br
