@@ -96,56 +96,68 @@
     ul.lista-ul--color.ps-2.mb-5
         li 
           i.fas.fa-check
-          b Undefined:  
-          b-none   indeterminado o indefinido.
+          p
+            b Undefined:  
+            b-none   indeterminado o indefinido.
         li 
           i.fas.fa-check
-          b Boolean: 
-          b-none tipo booleano los valores posibles son true o false.
+          p
+            b Boolean: 
+            b-none tipo booleano los valores posibles son true o false.
         li 
           i.fas.fa-check
-          b Number: 
-          b-none números enteros, o decimales.
+          p
+            b Number: 
+            b-none números enteros, o decimales.
         li 
           i.fas.fa-check
-          b String: 
-          b-none cadenas de texto.
+          p
+            b String: 
+            b-none cadenas de texto.
         li 
           i.fas.fa-check
-          b BigInt: 
-          b-none números enteros grandes.
+          p
+            b BigInt: 
+            b-none números enteros grandes.
         li 
           i.fas.fa-check
-          b Symbol: 
-          b-none  referencia a otros datos.
+          p
+            b Symbol: 
+            b-none  referencia a otros datos.
     p.mb-5 Otros tipos de datos más complejos o abstractos de datos:
     ul.lista-ul--color.ps-2.mb-5
         li 
           i.fas.fa-check
-          b Null: 
-          b-none tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null.
+          p
+            b Null: 
+            b-none tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null.
         li 
           i.fas.fa-check
-          b Object: 
-          b-none tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date y casi todo lo hecho con la palabra clave new).
+          p
+            b Object: 
+            b-none tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date y casi todo lo hecho con la palabra clave new).
         li 
           i.fas.fa-check
-          b Function: 
-          b-none una estructura sin datos, aunque también responde al operador t.
+          p
+            b Function: 
+            b-none una estructura sin datos, aunque también responde al operador t.
     p.mb-5 Cuando se declaran variables se debe considerar los siguientes tipos, ya se han usado dos (2) de ellas:
     ul.lista-ul--color.ps-2.mb-5
         li 
           i.fas.fa-check
-          b var:  
-          b-none declara una variable, opcionalmente la inicia a un valor.
+          p
+            b var:  
+            b-none  declara una variable, opcionalmente la inicia a un valor.
         li 
           i.fas.fa-check
-          b let:  
-          b-none declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor.
+          p
+            b let:  
+            b-none  declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor.
         li 
           i.fas.fa-check
-          b const: 
-          b-none declara un nombre de constante de solo lectura y ámbito de bloque.
+          p
+            b const: 
+            b-none  declara un nombre de constante de solo lectura y ámbito de bloque.
     p.mb-5 Para ampliar la información de acuerdo con los tipos de datos y estructuras, se debe revisar el material complementario dispuesto: 
     a.anexo.mb-4.mb-lg-5(href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_Types#tipos_de_datos" target="_blank" style="width: 422px")
         .anexo__icono
