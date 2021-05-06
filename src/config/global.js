@@ -78,12 +78,6 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Estructuras de datos',
-            hash: 't_3_6',
-          },
-          {
-            icono: 'far fa-file-alt',
             numero: '3.7',
             titulo: 'Estructuras de salto',
             hash: 't_3_7',
