@@ -421,8 +421,7 @@
           .lista-ol--cuadro__vineta
             span 9
           b Disyunción (o).
-    #t_3_3
-    .titulo-segundo
+    #t_3_3.titulo-segundo
       .h4 3.3. Expresiones y comentarios.
     p JavaScript permite poner comentarios en el código fuente, como la mayoría de los lenguajes de programación y existen dos tipos de comentarios en línea que comienzan con una doble barra: //, y los comentarios multilínea, que comienzan con /* y terminan con */ tal como se observa en la siguiente figura.
     figure.my-5
@@ -482,7 +481,7 @@
         li 
           .lista-ol--cuadro__vineta
             span 5
-          |También en la línea 8 se oberva la palabra reservada else, que sirve para indicarle al intérprete de JavaScript que se creará un bloque o contexto para cuando la condición evaluada por el if no se cumpla, y enseguida se abre el contexto con el carácter corchete abierto {.
+          |También en la línea 8 se observa la palabra reservada else, que sirve para indicarle al intérprete de JavaScript que se creará un bloque o contexto para cuando la condición evaluada por el if no se cumpla, y enseguida se abre el contexto con el carácter corchete abierto {.
         li 
           .lista-ol--cuadro__vineta
             span 6
@@ -491,7 +490,7 @@
         li 
           .lista-ol--cuadro__vineta
             span 7
-          |Para finalizar el contexto, se cierra con el carácter corchete cerrado } .
+          |Para finalizar el contexto, se cierra con el carácter corchete cerrado }.
     p.mb-5 Ahora se debe escribir el programa y cambiar los valores de la constante para validar que el algoritmo está bien diseñado.
     hr
     p.mb-5 De la misma forma, se puede realizar el algoritmo que, dada una edad en años, evalúe e imprima si es mayor de edad:

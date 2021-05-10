@@ -62,7 +62,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.4',
             titulo: 'Estructuras de selección ',
-            hash: 't_3_3',
+            hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
