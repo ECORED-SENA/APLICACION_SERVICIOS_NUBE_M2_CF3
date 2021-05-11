@@ -197,9 +197,14 @@ export default {
       },
       {
         nombre: [
-          'Camilo Andrés Villamizar Lizcano',
+          'Angela María Maldonado Jaime',
+          'Carmen Alicia Martinez Torres',
+          'Daniela Muñoz Bedoya',
+          'Gilberto Junior Rodríguez Rodríguez',
           'Juan Daniel Polanco Muñoz',
+          'Wilson Andrés Arenales Cáceres',
           'Yuly Andrea Rey Quiñonez',
+          'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Diseño web y Producción Audiovisual',
       },
